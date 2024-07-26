@@ -1,7 +1,7 @@
 # OpenAI .NET API library
 
 ---
-### **ℹ️ NOTICE :: 
+### **ℹ️ NOTICE ::** 
 This is the Arkaen fork of the official OpenAI library, and not the original, modified by Arkaen as needed for additional feature support, fixes or custom requirements.
 ___
 
