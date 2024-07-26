@@ -1,5 +1,9 @@
 # OpenAI .NET API library
 
+---
+### **(!) NOTICE :: This is the Arkaen fork of the official OpenAI library, and not the original, modified by Arkaen as needed for additional feature support, fixes or custom requirements.
+___
+
 [![NuGet version](https://img.shields.io/nuget/vpre/openai.svg)](https://www.nuget.org/packages/OpenAI/absoluteLatest)
 
 The OpenAI .NET library provides convenient access to the OpenAI REST API from .NET applications. 
