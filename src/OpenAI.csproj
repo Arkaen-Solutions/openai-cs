@@ -5,7 +5,7 @@
     <PackageTags>OpenAI</PackageTags>
 
     <VersionPrefix>2.0.0</VersionPrefix>
-    <VersionSuffix>beta.7</VersionSuffix>
+    <VersionSuffix>beta.8</VersionSuffix>
 
     <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
     <LangVersion>latest</LangVersion>
@@ -66,11 +66,12 @@
   
   <ItemGroup>
     <None Include="OpenAI.png" Pack="true" PackagePath="\" />
+    <None Include="..\CHANGELOG.md" Pack="true" PackagePath="\" />
     <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
-    <PackageReference Include="System.ClientModel" Version="1.1.0-beta.4" />
+    <PackageReference Include="System.ClientModel" Version="1.1.0-beta.5" />
   </ItemGroup>
 </Project>

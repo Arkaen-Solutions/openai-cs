@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 
@@ -10,8 +10,8 @@ public partial class FileSearchToolDefinition : ToolDefinition
 {
     public int? MaxResults
     {
-        get => _fileSearch.InternalMaxNumResults;
-        init => _fileSearch.InternalMaxNumResults = value;
+        get => _fileSearch?.InternalMaxNumResults;
+        set => _fileSearch.InternalMaxNumResults = value;
     }
 
     /// <summary>

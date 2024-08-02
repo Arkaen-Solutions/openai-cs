@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ClientModel;
 using System.ClientModel.Primitives;
 using System.Collections.Generic;
@@ -15,7 +15,7 @@ namespace OpenAI.Chat;
 /// <summary>
 /// Implementation of collection abstraction over streaming chat updates.
 /// </summary>
-internal class AsyncStreamingChatCompletionUpdateCollection : AsyncResultCollection<StreamingChatCompletionUpdate>
+internal class AsyncStreamingChatCompletionUpdateCollection : AsyncCollectionResult<StreamingChatCompletionUpdate>
 {
     private readonly Func<Task<ClientResult>> _getResultAsync;
 

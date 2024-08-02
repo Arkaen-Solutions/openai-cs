@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ClientModel;
 using System.ClientModel.Primitives;
 using System.Collections.Generic;
@@ -15,7 +15,7 @@ namespace OpenAI.Assistants;
 /// <summary>
 /// Implementation of collection abstraction over streaming assistant updates.
 /// </summary>
-internal class AsyncStreamingUpdateCollection : AsyncResultCollection<StreamingUpdate>
+internal class AsyncStreamingUpdateCollection : AsyncCollectionResult<StreamingUpdate>
 {
     private readonly Func<Task<ClientResult>> _getResultAsync;
 
